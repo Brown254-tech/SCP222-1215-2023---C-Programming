@@ -3,9 +3,9 @@
 int main(void)
 {
     int b;
-    printf("17:");
+    printf("Enter a number: ");
     scanf("%d", &b);
-    if (b > 0)
+    if (b < 0)
     {
         printf ("The value is negative\n");
     }
