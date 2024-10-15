@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main(void)
-{
-    int a, b, c, d;
-    a = 2;
-    b = 3;
-    c = 4;
-    d = a + b + c;
-    printf("%d + %d + %d = %d\n" , a, b, c, d);
+int main(){
+    int a, b, c;
+    a = 5;
+    b = 7;
+    c = a + b;
+
+    printf("%d + %d = %d", a, b, c);
+
     return 0;
 }
